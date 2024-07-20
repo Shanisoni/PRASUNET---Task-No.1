@@ -13,7 +13,7 @@ body {
 header {
     position: fixed;
     width: 100%;
-    background-color: #ff6347;
+    background-color: #097b8a;
     color: #ffffff;
     top: 0;
     left: 0;
@@ -24,7 +24,8 @@ header {
 .navbar {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 3rem;
+    box-shadow:  2px 9px 8px rgba(255, 255, 255, 0.1);
 }
 
 .nav-list {
@@ -40,13 +41,13 @@ header {
 .nav-link {
     text-decoration: none;
     color: #f6f6f6;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .nav-link:hover {
-    color: #000000;
+    color: #06e6e6;
 }
 
 .section {
@@ -82,7 +83,7 @@ header {
 }
 
 #home .btn:hover {
-    background-color: #ff6347;
+    background-color: #690c65;
     transform: scale(1.05);
 }
 
@@ -114,7 +115,7 @@ header {
 
 .about-item h3, .service-item h3 {
     margin-bottom: 1rem;
-    color: #ff6347;
+    color: #4d4a4a;
     font-size: 1.5rem;
 }
 
@@ -143,7 +144,7 @@ header {
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #ff6347;
+    color: #9e9c11;
 }
 
 .form-group input, .form-group textarea {
@@ -156,20 +157,20 @@ header {
 
 .btn {
     padding: 0.75rem 1.5rem;
-    background-color: #ff6347;
+    background-color: #47ff84;
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 10px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .btn:hover {
-    background-color: #ff4500;
+    background-color: #948c17;
     transform: scale(1.05);
 }
 
 .scrolled {
-    background-color: #ff4500 !important;
+    background-color: #ad9f1e !important;
     transition: background-color 0.3s;
 }
