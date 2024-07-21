@@ -59,6 +59,17 @@ header {
     align-items: center;
     text-align: center;
 }
+.section1 {
+    background-color: #afaea9;
+    
+    padding: 5rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 #home {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('home-bg.jpg') no-repeat center center/cover;
@@ -67,7 +78,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #d5c4bd;
+    background-color: #97cfe0;
 }
 
 #home .btn {
@@ -131,10 +142,10 @@ header {
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff;
-    padding: 2rem;
+    background-color: #5ea4a7;
+    padding: 4rem;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 10PX 4px 6px rgba(224, 4, 4, 0.1);
 }
 
 .form-group {
@@ -144,7 +155,7 @@ header {
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #9e9c11;
+    color: #000000;
 }
 
 .form-group input, .form-group textarea {
